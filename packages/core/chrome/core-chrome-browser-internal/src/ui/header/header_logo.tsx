@@ -91,7 +91,9 @@ export function HeaderLogo({ href, navigateToApp, loadingCount$, ...observables 
   const forceNavigation = useObservable(observables.forceNavigation$, false);
   const navLinks = useObservable(observables.navLinks$, []);
   const customBranding = useObservable(observables.customBranding$, {});
-  const { customizedLogo, logo } = customBranding;
+  const { customizedLogo } = customBranding;
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const logo = require('../asserts/img/logo.png');
   return (
     <a
       onClick={(e) => onClick(e, forceNavigation, navLinks, navigateToApp)}

@@ -1,34 +1,7 @@
-/*
- * Copyright Elasticsearch B.V. and/or licensed to Elasticsearch B.V. under one
- * or more contributor license agreements. Licensed under the Elastic License
- * 2.0 and the Server Side Public License, v 1; you may not use this file except
- * in compliance with, at your election, the Elastic License 2.0 or the Server
- * Side Public License, v 1.
- */
-
-import React, { FC } from 'react';
-
-export const Logo: FC = () => (
-  <svg
-    version="1.1"
-    id="Layer_1"
-    xmlns="http://www.w3.org/2000/svg"
-    x="0px"
-    y="0px"
-    width="211px"
-    height="182px"
-    viewBox="0 0 211 182"
-    enableBackground="new 0 0 211 182"
-    xmlSpace="preserve"
-  >
-    {' '}
-    <image
-      id="image0"
-      width="211"
-      height="182"
-      x="0"
-      y="0"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAC2CAMAAAB04EgCAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="211px" height="182px" viewBox="0 0 211 182" enable-background="new 0 0 211 182" xml:space="preserve">  <image id="image0" width="211" height="182" x="0" y="0"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAC2CAMAAAB04EgCAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEX///8JMJEJMJEJMJEJ
 MJEJMJEJMJEJMJEJMJEJMJEJMJEJMJEJMJEJMJEJMJEJMJEJMJH///+FWZlYAAAAEHRSTlMAUKCA
 ENDgYMBA8LAgkDBw/5GTFAAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElN
@@ -63,7 +36,5 @@ U/aV6TB+Z8++mJn42X+FNmb9lvQXl66DuPXsC8zT5bkrq4+uO/Yl/mWs9uumzYX44cp45/cYfz05
 +3mn4/PTy/Q/ytYc30XkH6Wd8VogMYRwAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIzVDA2
 OjEwOjA0KzAwOjAw77FwlwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yM1QwNjoxMDowNCsw
 MDowMJ7syCsAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMTEtMjNUMDY6MTA6MDQrMDA6MDDJ
-+en0AAAAAElFTkSuQmCC"
-    />
-  </svg>
-);
++en0AAAAAElFTkSuQmCC" />
+</svg>

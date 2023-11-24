@@ -11,7 +11,7 @@
 .loginWelcome__logo {
   @include kibanaCircleLogo;
   @include euiBottomShadowMedium;
-
+  padding: 0;
   margin-bottom: $euiSizeXL;
 }
 

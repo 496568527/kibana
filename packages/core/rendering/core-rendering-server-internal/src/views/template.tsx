@@ -34,11 +34,7 @@ export const Template: FunctionComponent<Props> = ({
   const title = customBranding.pageTitle ?? 'Elastic';
   const favIcon = customBranding.faviconSVG ?? `${uiPublicUrl}/favicons/favicon.svg`;
   const favIconPng = customBranding.faviconPNG ?? `${uiPublicUrl}/favicons/favicon.png`;
-  const logo = customBranding.logo ? (
-    <img src={customBranding.logo} width="64" height="64" alt="logo" />
-  ) : (
-    <Logo />
-  );
+  const logo = <Logo />;
   return (
     <html lang={locale}>
       <head>
